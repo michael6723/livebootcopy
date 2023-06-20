@@ -45,13 +45,13 @@ public class Logcat {
     public static final char[] LEVEL_CHARACTERS = new char[] { 'V', 'D', 'I', 'W', 'E', 'F', 'S' };
     
     public static final int[] LEVEL_COLORS = new int[] {
-        /* VERBOSE  */ Color.WHITE,
-        /* DEBUG    */ Color.rgb(0x40, 0x80, 0xFF),
+        /* VERBOSE  */ Color.GREEN,
+        /* DEBUG    */ Color.GREEN,
         /* INFO     */ Color.GREEN,
-        /* WARNING  */ Color.YELLOW,
-        /* ERROR    */ Color.RED,
-        /* FATAL    */ Color.RED,
-        /* SILENT   */ Color.BLACK
+        /* WARNING  */ Color.GREEN,
+        /* ERROR    */ Color.GREEN,
+        /* FATAL    */ Color.GREEN,
+        /* SILENT   */ Color.GREEN
     };
     
     public static final int[] LEVEL_DESCRIPTIONS = new int[] {
